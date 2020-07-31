@@ -5,3 +5,12 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# (1..20).to_a.each do |num|
+#   Student.create(first_name: "Frist Name #{num}", last_name: "Last Name ##{num}.")
+# end
+
+Student.create(first_name: "Daenerys", last_name: "Targaryen")
+Student.create(first_name: "Lindsey", last_name: "Stirling")
+
+puts "Finished Seeding Database"
